@@ -1,0 +1,400 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+/* -----------------1st steps "Headline"
+           -------------------*/
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.headline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.g3-architect {
+    font-size: 45px;
+    line-height: 53px;
+    margin-left: 241px;
+
+}
+
+.site-bar {
+    display: flex;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #424242;
+    gap: 70px;
+    margin-right: 227px;
+
+}
+
+/*------------ 2nd steps "Banner"
+                ------------------ */
+
+
+
+.text-style {
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    width: 862px;
+    height: 225px;
+    line-height: 75px;
+    text-align: center;
+    align-items: center;
+
+}
+
+.text-1 {
+    font-size: 64px;
+    line-height: 75px;
+}
+
+.text-2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+
+}
+
+.button-1 {
+    width: 180px;
+    height: 64px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    background: #FF900E;
+    text-align: center;
+
+}
+
+.image-1 {
+    width: 1440px;
+    height: 700px;
+    border-radius: 8px;
+    padding-top: 250px;
+    padding-bottom: 30px;
+    margin-left: 253px;
+    margin-right: 227px;
+}
+
+
+/*----------- 3rd steps "Team Banner"
+               ------------------ */
+
+
+.team-banner {
+    display: flex;
+    justify-content: center;
+}
+
+.team-image-style {
+    width: 760px;
+    height: 760px;
+    padding-top: 108px;
+}
+
+.team-image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 25px;
+    column-gap: 25px;
+}
+
+.team-text {
+    width: 537px;
+    height: 304px;
+    padding-top: 250px;
+    padding-left: 73px;
+}
+
+.team-text-1 {
+    font-weight: 500;
+    font-size: 45px;
+    p
+}
+
+.team-text-2 {
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 25px;
+    color: #727272;
+}
+
+.quick {
+    color: #727272;
+}
+
+.of {
+    color: #131313;
+}
+
+.features {
+    color:
+        #FF900E;
+}
+
+
+/*---------- 4th steps "Details Information" 
+              -------------------*/
+
+
+.article {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.article-style {
+    background-color:rgb(251, 248, 248);
+    display: flex;
+    justify-content: center;
+}
+
+.article-text-1 {
+    font-size: 45px;
+    width: 468px;
+    height: 106px;
+}
+
+.article-text-style {
+    width: 586px;
+    height: 171px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+
+}
+
+.article-text-2 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    width: 586px;
+    height: 78px;
+
+}
+
+.article-text-3 {
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 35px;
+}
+
+.architect-image {
+    width: 708px;
+    height: 982px;
+    padding-left: 150px;
+}
+
+.button-style {
+    display: flex;
+    justify-content: center;
+
+}
+
+.button2 {
+    font-size: 65px;
+    line-height: 70px;
+    text-align: center;
+    color: white;
+    background: #FF900E;
+    width: 342px;
+    height: 200px;
+    border-radius: 8px;
+    margin-top: -195px;
+    margin-left: 235px;
+}
+
+
+/*------------- 5th Steps "Some Fact"
+             --------------------- */
+
+
+.some-fact-text {
+    margin-left: 295px;
+    margin-top: 100px;
+}
+
+.some-fact-text1 {
+    font-size: 45px;
+}
+
+.some-fact-text2 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    width: 542px;
+    height: 52px;
+}
+
+.icon-style {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    width: 242px;
+    height: 242px;
+    border: 3px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    margin: 70px;
+    transition: width 1s, height 5s, transform 1s ;
+   
+
+}
+.icon:hover{
+    width: 252px;
+    height: 252px;
+    border: 7px dotted red;
+    transform: rotate(-60deg);
+    background-color:chartreuse;
+    
+   
+    
+}
+
+.icon-image {
+    padding-top: 40px;
+}
+
+.number {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    padding: auto;
+    margin-top: 5px;
+
+}
+
+.number-text {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+    margin-top: -40px;
+    
+}
+
+
+    /*------------------- 6th steps "Sponspors"
+              ------------------- */
+
+.sponsors-style{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.sponsors{ 
+   text-align: center;
+   width: 542px;
+height: 129px;
+   
+}
+.sponsors-text-1{
+    font-size: 45px;
+}
+.sponsors-text-2{
+    font-size: 16px;
+    color: #727272;
+    margin-top: -20px;
+
+}
+
+.sponsors-image{
+   display: flex;
+   justify-content: center;
+   gap: 160px;
+   margin-top: 100px;
+}
+
+
+
+     /* -------------7th steps "Address"
+     -------------------------- */
+
+
+
+.footer{
+width: 100%;
+height: 500px; 
+background-color: #ebc08f ; 
+display: flex;
+justify-content: space-between;
+margin-top: 110px;
+}
+.footer-style{
+  
+}
+.address{
+    color:black;
+    font-size: 55px;
+    font-weight:100;
+    margin-left: 350px;
+    margin-top: 60px;
+}
+.address-more{
+    color: white;
+    font-size: 20px;
+    margin-left: 280px;
+    margin-top: -20px;
+}
+.touhid{
+    color: red;
+    font-size: 40px;
+}
+.ceo{
+    color:azure;
+}
+.input{
+    font-size: 40px;
+    color: #131313;
+}
+.form{ 
+  display: flex;
+  flex-direction: column;  
+  gap: 40px;
+  align-items: center;
+  margin-top: 150px;
+  margin-right:250px ;
+}
+
+
+
+.last1{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 150px;
+}
+.last{
+    width: 1440px;
+height: 100px;
+background: rgb(221, 188, 193);
+border-radius: 8px;
+text-align: center;
+
+
+}
+.last-p{
+    font-weight: 400;
+font-size: 20px;
+color: #424242;
+padding-top: 20px;
+
+}
+             
+
